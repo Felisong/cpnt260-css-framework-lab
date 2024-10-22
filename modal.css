@@ -1,3 +1,32 @@
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: rgb(48, 0, 18);
+  color: aliceblue;
+  padding: 5%;
+}
+.grid-container {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr;
+  margin: 14px;
+  padding: 14px;
+}
+img {
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(48, 0, 18);
+  color: aliceblue;
+  position: sticky;
+}
+
+/* modal related */
 @keyframes slideDown {
   0% {
     transform: translateY(-100%);
@@ -17,12 +46,9 @@
 .custom-animation.show {
   animation: slideDown 0.8s ease-out;
 }
-
-button {
-  background-color: red;
-}
 .btn {
   background-color: brown;
+  margin: 12px;
 }
 .btn:hover {
   background-color: rgb(115, 25, 36);
@@ -32,4 +58,5 @@ button {
 }
 .modal-content {
   background-color: rgb(255, 191, 191);
+  color: black;
 }
