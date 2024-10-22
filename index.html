@@ -4,17 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              clifford: "#da373d",
-            },
-          },
-        },
-      };
-    </script>
+    <link rel="stylesheet" href="index.css" />
     <style type="text/tailwindcss">
       @layer utilities {
         .content-auto {
@@ -119,17 +109,21 @@
             <a href="modal.html">Go to Second Page</a>
           </p>
         </div>
-        <p class="flex items-center bg-center px-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eaque
-          minus non perspiciatis iusto veritatis aliquid, rerum deleniti ipsum
-          beatae pariatur qui facilis, natus repudiandae modi ratione reiciendis
-          sequi doloribus.
-        </p>
-        <div class="py-14 px-10">
-          <img
-            src="https://cdn.discordapp.com/attachments/239313244760571904/1297267462559109150/20241019_123731.jpg?ex=6717f0f9&is=67169f79&hm=d9a4ebd6a304de81c1afe8623f84aae22a63ef9bd10027bc99c33baf755466ba&"
-            alt="my cat under a blanket"
-          />
+        <div
+          class="grid grid-cols-1 p-10 sm:grid-cols-1 md:grid-cols-2 h-auto place-items-center"
+        >
+          <p class="place-items-center text-center py-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eaque
+            minus non perspiciatis iusto veritatis aliquid, rerum deleniti ipsum
+            beatae pariatur qui facilis, natus repudiandae modi ratione
+            reiciendis sequi doloribus.
+          </p>
+          <div class="px-10">
+            <img
+              src="https://cdn.discordapp.com/attachments/239313244760571904/1297267462559109150/20241019_123731.jpg?ex=6717f0f9&is=67169f79&hm=d9a4ebd6a304de81c1afe8623f84aae22a63ef9bd10027bc99c33baf755466ba&"
+              alt="my cat under a blanket"
+            />
+          </div>
         </div>
       </div>
     </main>
