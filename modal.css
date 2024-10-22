@@ -1,0 +1,62 @@
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: rgb(48, 0, 18);
+  color: aliceblue;
+  padding: 5%;
+}
+.grid-container {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr;
+  margin: 14px;
+  padding: 14px;
+}
+img {
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(48, 0, 18);
+  color: aliceblue;
+  position: sticky;
+}
+
+/* modal related */
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(10%);
+    transform: skewY(50%);
+  }
+  80% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.custom-animation.show {
+  animation: slideDown 0.8s ease-out;
+}
+.btn {
+  background-color: brown;
+  margin: 12px;
+}
+.btn:hover {
+  background-color: rgb(115, 25, 36);
+}
+.btn:focus {
+  background-color: rgb(52, 13, 13);
+}
+.modal-content {
+  background-color: rgb(255, 191, 191);
+  color: black;
+}
