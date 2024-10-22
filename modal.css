@@ -1,0 +1,35 @@
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(10%);
+    transform: skewY(50%);
+  }
+  80% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.custom-animation.show {
+  animation: slideDown 0.8s ease-out;
+}
+
+button {
+  background-color: red;
+}
+.btn {
+  background-color: brown;
+}
+.btn:hover {
+  background-color: rgb(115, 25, 36);
+}
+.btn:focus {
+  background-color: rgb(52, 13, 13);
+}
+.modal-content {
+  background-color: rgb(255, 191, 191);
+}

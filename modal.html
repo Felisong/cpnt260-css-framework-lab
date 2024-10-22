@@ -9,65 +9,81 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="modal.css" />
     <title>Document</title>
   </head>
   <body>
-    <!-- Button trigger modal -->
-    <button
-      type="button"
-      class="btn btn-primary"
-      data-toggle="modal"
-      data-target="#exampleModalCenter"
-    >
-      Launch modal
-    </button>
+    <header>
+      <h1>Title of website</h1>
+      <div>
+        <!-- Button trigger modal -->
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-toggle="modal"
+          data-target="#exampleModalCenter"
+        >
+          Launch modal
+        </button>
 
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="exampleModalCenter"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="exampleModalCenterTitle"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle">Hello</h5>
+        <!-- Modal -->
+        <div
+          class="modal fade custom-animation"
+          id="exampleModalCenter"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalCenterTitle"
+          aria-hidden="true"
+        >
+          <div
+            class="modal-dialog modal-dialog-centered custom-animation"
+            role="document"
+          >
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Hello</h5>
 
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body"><p>Pleased to meet you.</p></div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body"><p>Pleased to meet you.</p></div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Save changes
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <header>title of website</header>
+    </header>
     <main>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi debitis
-      pariatur molestias quos doloremque praesentium nemo alias nobis, quaerat
-      aliquid sint! Delectus ut sequi, nam magni accusantium laboriosam
-      veritatis tempore. Lorem ipsum dolor sit, amet consectetur adipisicing
-      elit. Voluptas, ab. Alias laudantium molestias ea earum perspiciatis
-      facere officiis velit nemo, asperiores, quibusdam enim reiciendis! Quod
-      asperiores illum natus! Minus, quaerat?
+      <div>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi debitis
+        pariatur molestias quos doloremque praesentium nemo alias nobis, quaerat
+        aliquid sint! Delectus ut sequi, nam magni accusantium laboriosam
+        veritatis tempore. Lorem ipsum dolor sit, amet consectetur adipisicing
+        elit. Voluptas, ab. Alias laudantium molestias ea earum perspiciatis
+        facere officiis velit nemo, asperiores, quibusdam enim reiciendis! Quod
+        asperiores illum natus! Minus, quaerat?
+        <img
+          src="https://cdn.discordapp.com/attachments/239313244760571904/1297267462559109150/20241019_123731.jpg?ex=6717f0f9&is=67169f79&hm=d9a4ebd6a304de81c1afe8623f84aae22a63ef9bd10027bc99c33baf755466ba&"
+          alt="my cat nder a blanket"
+        />
+      </div>
     </main>
     <footer>Footer</footer>
     <script
